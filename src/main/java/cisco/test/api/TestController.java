@@ -29,9 +29,9 @@ public class TestController {
 	@ResponseBody
 	public String test(HttpServletRequest request) throws IOException {
 		
-		LOG.info("Test Service is up ..! on " + myenv);
+		LOG.info("iCare Service is up ..! on " + myenv);
 		//return
-		return "Test Service is up ..! on " + myenv;
+		return "iCare Service is up ..! on " + myenv;
 	}
 
 	/**
@@ -43,8 +43,8 @@ public class TestController {
 	@ResponseBody
 	public String healthcheck(HttpServletRequest request) throws IOException {
 		
-		LOG.info( "Test service healthcheck testing on " + myenv);
+		LOG.info( "iCare service healthcheck testing on " + myenv);
 		//return
-		return "Test service healthcheck testing on " + myenv;
+		return "iCare service healthcheck testing on " + myenv;
 	}
 }
